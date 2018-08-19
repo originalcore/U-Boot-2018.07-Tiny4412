@@ -1,9 +1,8 @@
 #!/bin/bash
 
-EXEC="sd_fusing.sh"
-
+#EXEC="sd_fusing.sh"
+EXEC="fast_fuse.sh"
 SD_PATH="/dev/sdc"
-
 FUSE_PATH="./${EXEC}"
 
 if [ -e ${FUSE_PATH} ]
