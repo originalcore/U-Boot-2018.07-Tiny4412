@@ -734,3 +734,11 @@ void system_clock_init(void)
        continue;
 #endif
 }
+/*
+ * Set clock divisor value for booting from EMMC.
+ * Set DWMMC channel-0 clk div to operate mmc0 device at 50MHz.
+ */
+void emmc_boot_clk_div_set(void)
+{
+	; //clock already setting!
+}
